@@ -1,8 +1,8 @@
 // Quiz Daten - hier trägst du die Community Member Namen ein
 const quizData = [
-    { image: 'images/recap1.png', member: 'MemberName1' },
-    { image: 'images/recap2.png', member: 'MemberName2' },
-    { image: 'images/recap3.png', member: 'MemberName3' }
+    { image: 'images/recap1.png', member: 'clown0kaiser' },
+    { image: 'images/recap2.png', member: 'ApfeI_' },
+    { image: 'images/recap3.png', member: 'Liah_gamer1' }
 ];
 
 let currentIndex = 0;
@@ -90,4 +90,5 @@ function showResults() {
 }
 
 // Quiz initialisieren
+
 loadRecap();
