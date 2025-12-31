@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JustinLapaz Community Recap Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+    <div class="header-info">
+        <img src="images/profilbild.png" alt="JustinLapaz" class="profile-pic">
+        <span class="streamer-name">JustinLapaz</span>
+    </div>
+    
+    <div class="container">
+        <h1>Community Recaps</h1>
+        
+        <div class="quiz-area">
+            <img id="recapImage" src="" alt="Community Recap">
+            
+            <div class="button-group">
+                <button id="showAnswer">Antwort zeigen</button>
+            </div>
+            
+            <div id="answerSection" class="hidden">
+                <p>Community Member: <strong id="memberName"></strong></p>
+                <button id="correctBtn">Richtig</button>
+                <button id="wrongBtn">Falsch</button>
+            </div>
+        </div>
+        
+        <div class="navigation">
+            <button id="prevBtn">Vorherige Seite</button>
+            <button id="nextBtn">Nächste Seite</button>
+        </div>
+        
+        <div id="results" class="hidden">
+            <h2>Ergebnis</h2>
+            <p>Richtige Antworten: <span id="correctCount">0</span></p>
+            <p>Falsche Antworten: <span id="wrongCount">0</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <div class="footer-info">
+        Hosted By TK_Thomas_
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
